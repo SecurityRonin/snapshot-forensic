@@ -1,0 +1,21 @@
+[package]
+name         = "snapshot-core"
+version.workspace      = true
+edition.workspace      = true
+rust-version.workspace = true
+license.workspace      = true
+authors.workspace      = true
+repository.workspace   = true
+description  = "Reader for snapshot & backup container formats (temporal filesystem reconstruction)"
+keywords     = ["forensics", "snapshot", "backup", "dfir", "timeline"]
+categories   = ["parser-implementations", "filesystem"]
+exclude      = ["/fuzz", "/.github", "/docs"]
+
+[lib]
+name = "snapshot"
+
+[dependencies]
+thiserror = { workspace = true }
+
+[lints]
+workspace = true

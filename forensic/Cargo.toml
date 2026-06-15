@@ -1,0 +1,20 @@
+[package]
+name         = "snapshot-forensic"
+version.workspace      = true
+edition.workspace      = true
+rust-version.workspace = true
+license.workspace      = true
+authors.workspace      = true
+repository.workspace   = true
+description  = "Anomaly auditor over snapshot-core — temporal/integrity findings via forensicnomicon::report"
+keywords     = ["forensics", "snapshot", "backup", "dfir", "timeline"]
+categories   = ["parser-implementations"]
+readme       = "README.md"
+
+[dependencies]
+snapshot = { workspace = true }
+forensicnomicon = { workspace = true }
+thiserror = { workspace = true }
+
+[lints]
+workspace = true
