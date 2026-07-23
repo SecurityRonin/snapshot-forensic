@@ -3,7 +3,7 @@
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](LICENSE)
 [![Sponsor](https://img.shields.io/badge/sponsor-h4x0r-ea4aaa?logo=github-sponsors)](https://github.com/sponsors/h4x0r)
 
-**Temporal filesystem reconstruction from snapshot & backup formats — a panic-free reader for snapshot/backup containers (APFS snapshots, Time Machine, btrfs, VSS-adjacent shadow copies, enterprise backup images), and a graded anomaly analyzer that flags broken chains, back-dated restore points, and integrity-hash mismatches across backup generations.**
+**Temporal filesystem reconstruction from snapshot & backup formats — a panic-free-by-construction reader for snapshot/backup containers (APFS snapshots, Time Machine, btrfs, VSS-adjacent shadow copies, enterprise backup images), and a graded anomaly analyzer that flags broken chains, back-dated restore points, and integrity-hash mismatches across backup generations.**
 
 **Status:** early-stage scaffold — format research complete (see docs), parser under construction.
 
