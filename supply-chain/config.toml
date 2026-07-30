@@ -16,6 +16,12 @@ url = "https://raw.githubusercontent.com/google/rust-crate-audits/main/audits.to
 [imports.mozilla]
 url = "https://raw.githubusercontent.com/mozilla/supply-chain/main/audits.toml"
 
+[policy.snapshot-core]
+audit-as-crates-io = false
+
+[policy.snapshot-forensic]
+audit-as-crates-io = false
+
 [[exemptions.forensicnomicon]]
 version = "1.0.0"
 criteria = "safe-to-deploy"
